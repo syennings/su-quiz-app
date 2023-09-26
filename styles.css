@@ -20,7 +20,7 @@
 }
 
 .header__title {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
   margin: 0;
   background: transparent;
@@ -48,6 +48,8 @@
   font-size: 50px; /* Adjust the size as needed */
   display: flex;
   justify-content: flex-end;
+  margin: 0px;
+  padding: 0px;
 }
 
 .question {
@@ -77,11 +79,13 @@ li {
 }
 
 .footer-nav {
-  background-color: green;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: palegreen;
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
   height: 100px;
   display: flex;
   flex-direction: row;
   list-style: none;
   justify-content: space-evenly;
+  align-items: center;
 }
