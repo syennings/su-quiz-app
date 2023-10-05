@@ -5,70 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Su's Quiz</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet global" href="global.css" />
   </head>
-  >
-
+  <body>
     <!-- to do check accessibility!!!!!  -->
     <!-- my header -->
     <header class="header">
-      <h1 class="header__title">a really great quiz</h1>
+      <h1 class="header__title">A Really Great Quiz About Nothing</h1>
     </header>
 
     <!-- the question card -->
-
-    <main class="main">
+    <main>
       <section class="question-card">
-        <span class="bookmark-icon">&#128278;</span>
-        <h2 class="question">This is where I insert my question?</h2>
+        <span class="question-card__bookmark-icon">&#128278;</span>
+        <h2 class="question-card__question">
+          This is where I insert my question?
+        </h2>
 
-        <button class="answer">show answer</button>
+        <button class="question-card__answer-button">show answer</button>
 
-        <ul class="category-tag">
+        <ul class="question-card__category-tag">
+          <li>#category tag 1</li>
+          <li>#category tag 2</li>
+          <li>#category tag 3</li>
+        </ul>
+      </section>
+
+      <section class="question-card">
+        <span class="question-card__bookmark-icon">&#128278;</span>
+        <h2 class="question-card__question">
+          This is where I insert my question?
+        </h2>
+
+        <button class="question-card__answer-button">show answer</button>
+
+        <ul class="question-card__category-tag">
           <li>#category tag 1</li>
           <li>#category tag 2</li>
           <li>#category tag 3</li>
         </ul>
       </section>
     </main>
-
-
-    <main class="main">
-      <section class="question-card">
-        <span class="bookmark-icon">&#128278;</span>
-        <h2 class="question">This is where I insert my question?</h2>
-
-        <button class="answer">show answer</button>
-
-        <ul class="category-tag">
-          <li>#category tag 1</li>
-          <li>#category tag 2</li>
-          <li>#category tag 3</li>
-        </ul>
-      </section>
-    </main>
-
-
-    <main class="main">
-      <section class="question-card">
-        <span class="bookmark-icon">&#128278;</span>
-        <h2 class="question">This is where I insert my question?</h2>
-
-        <button class="answer">show answer</button>
-
-        <ul class="category-tag">
-          <li>#category tag 1</li>
-          <li>#category tag 2</li>
-          <li>#category tag 3</li>
-        </ul>
-      </section>
-    </main>
-
     <!-- footer links -->
     <footer>
       <nav class="footer-nav">
-        <a class="footer-link" href="#"><span class="visually-hidden">Home</span><span>&#127968;</span></a>
-        <a class="footer-link" href="#"><span class="visually-hidden">Bookmark</span><span>&#128278;</span></a>
-        <a class="footer-link" href="#"><span class="visually-hidden">Profile</span><span>&#128100;</span></a>
+        <a class="footer-nav__link" href="./index.html"
+          ><span class="visually-hidden">Home</span><span>&#127968;</span></a
+        >
+        <a class="footer-nav__link" href="./bookmarks.html"
+          ><span class="visually-hidden">Bookmark</span
+          ><span>&#128278;</span></a
+        >
+        <a class="footer-nav__link" href="./profile.html"
+          ><span class="visually-hidden">Profile</span><span>&#128100;</span></a
+        >
       </nav>
     </footer>
   </body>
