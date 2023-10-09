@@ -5,7 +5,7 @@
 }
 
 .header {
-  background-color: yellow;
+  background-color: pink;
   color: blue;
   position: fixed;
   top: 0;
@@ -58,6 +58,17 @@ main {
   font-size: 18px;
 }
 
+.footer-nav__link.active {
+  background-color: yellow; /* Change to your preferred color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Makes it a circle */
+  width: 70px; /* Adjust the width to make it the desired size */
+  height: 70px; /* Adjust the height to make it the desired size */
+  text-align: center;
+  text-decoration: none;
+}
 .footer-nav__link span {
   font-size: 24px;
   margin-bottom: 5px;
