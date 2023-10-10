@@ -5,6 +5,8 @@
 .question-card__answer-button {
   display: flex;
   justify-content: center;
+  color: white;
+  background-color: blueviolet;
 }
 
 .question-card__answer {
