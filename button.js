@@ -1,3 +1,25 @@
+const bookmarkIcons = document.querySelectorAll(
+  ".question-card__bookmark-icon"
+);
+
+// Initialize an array of bookmark states
+const isBookmarked = new Array(bookmarkIcons.length).fill(false);
+
+// Add click event listeners to each bookmark icon
+bookmarkIcons.forEach((bookmarkIcon, index) => {
+  bookmarkIcon.addEventListener("click", () => {
+    isBookmarked[index] = !isBookmarked[index]; // Toggle the state
+
+    // Change the emoji based on the state
+    if (isBookmarked[index]) {
+      bookmarkIcon.innerHTML = "📖"; // Change to a different emoji when bookmarked
+    } else {
+      bookmarkIcon.innerHTML = "&#128278;"; // Change to the original emoji when not bookmarked
+    }
+  });
+});
+
+//old code ignore//
 // Get a reference to the bookmark icon element
 
 // const bookmarkIcon = document.getElementById("bookmark-icon");
@@ -34,24 +56,3 @@
 //     }
 //   });
 // }
-
-const bookmarkIcons = document.querySelectorAll(
-  ".question-card__bookmark-icon"
-);
-
-// Initialize an array of bookmark states
-const isBookmarked = new Array(bookmarkIcons.length).fill(false);
-
-// Add click event listeners to each bookmark icon
-bookmarkIcons.forEach((bookmarkIcon, index) => {
-  bookmarkIcon.addEventListener("click", () => {
-    isBookmarked[index] = !isBookmarked[index]; // Toggle the state
-
-    // Change the emoji based on the state
-    if (isBookmarked[index]) {
-      bookmarkIcon.innerHTML = "📖"; // Change to a different emoji when bookmarked
-    } else {
-      bookmarkIcon.innerHTML = "&#128278;"; // Change to the original emoji when not bookmarked
-    }
-  });
-});
