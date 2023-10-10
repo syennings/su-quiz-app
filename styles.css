@@ -5,7 +5,7 @@
 }
 
 .profile {
-  background-color: green;
+  background-color: brown;
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -13,24 +13,28 @@
   padding: 20px;
   /* min-width: 400px;
   max-width: 500px; */
-  text-align: center;
+  /* text-align: center; */
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  max-width: 450px;
+  /* align-items: center; */
+  /* max-width: 450px; */
 }
 
-.profile h1 {
+.profile h2 {
   font-size: 24px;
+  color: darkkhaki;
+  display: flex;
+  /* align-items: left;
+  justify-content: flex-start; */
 }
 
 .profile p {
   font-size: 16px;
   padding-top: 10px;
   line-height: 1;
-  color: yellow;
+  color: pink;
 }
 
 .profile_profile-picture {
@@ -55,7 +59,7 @@
 }
 
 .form__container {
-  background-color: green;
+  /* background-color: green; */
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
