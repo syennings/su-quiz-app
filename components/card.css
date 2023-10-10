@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  position: relative;
   /* align-items: center; */
 }
 
@@ -15,6 +16,9 @@
   font-size: 50px; /* Adjust the size as needed */
   display: flex;
   justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  top: -12px;
 }
 
 .question-card__question {
