@@ -17,16 +17,20 @@
     <header class="header">
       <h1 class="header__title">A Really Great Quiz About Nothing</h1>
     </header>
-
-    <!-- the question card -->
     <main>
+      <!-- the question card -->
       <section class="question-card">
-        <span class="question-card__bookmark-icon">&#128278;</span>
+        <span class="question-card__bookmark-icon" id="bookmark-icon"
+          >&#128278;</span
+        >
         <h2 class="question-card__question">
-          This is where I insert my question? 2
+          This is where I insert my question?
         </h2>
 
         <button class="question-card__answer-button">show answer</button>
+        <p class="question-card__answer hidden">
+          This is the answer to the question.
+        </p>
 
         <ul class="question-card__category-tag">
           <li>#category tag 1</li>
@@ -50,5 +54,8 @@
         >
       </nav>
     </footer>
+
+    <script src="button.js"></script>
+    <script src="showanswer.js"></script>
   </body>
 </html>

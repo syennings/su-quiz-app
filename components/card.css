@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .question-card__bookmark-icon {
@@ -18,24 +18,12 @@
 }
 
 .question-card__question {
+  background: lightcoral;
   display: flex;
   justify-content: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding-bottom: 10px 0;
   text-align: center;
-}
-
-.question-card__answer-button {
-  display: flex;
-  justify-content: center;
-}
-
-.question-card__answer {
-  color: white;
-  background-color: lightsalmon;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin: 10px 0;
-  align-items: center;
 }
 
 .question-card__category-tag {
