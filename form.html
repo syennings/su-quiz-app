@@ -15,28 +15,44 @@
     <!-- to do check accessibility!!!!!  -->
     <!-- my header -->
     <header class="header">
-      <h1 class="header__title">A Really Great Quiz About Nothing</h1>
+      <h1 class="header__title">A REALLY GREAT QUIZ ABOUT NOTHING</h1>
     </header>
     <main>
-      <!-- the question card -->
-      <section class="question-card">
-        <span class="question-card__bookmark-icon" id="bookmark-icon"
-          >&#128278;</span
-        >
-        <h2 class="question-card__question">
-          This is where I insert my question?
-        </h2>
+      <section class="form__container">
+        <form class="form">
+          <label for="question">Your Question:</label>
+          <textarea
+            id="question"
+            name="question"
+            rows="1"
+            cols="40"
+            maxlength="100"
+            minlength="1"
+          >
+            Please Write Your Question Here
+        </textarea
+          >
 
-        <button class="question-card__answer-button">show answer</button>
-        <p class="question-card__answer hidden">
-          This is the answer to the question.
-        </p>
+          <label for="answer">Your Answer:</label>
+          <textarea
+            id="answer"
+            name="answer"
+            rows="4"
+            cols="40"
+            maxlength="150"
+            minlength="1"
+          >
+            Please Write Your Answer Here
+        </textarea
+          >
 
-        <ul class="question-card__category-tag">
-          <li>#category tag 1</li>
-          <li>#category tag 2</li>
-          <li>#category tag 3</li>
-        </ul>
+          <label for="tag">Tags:</label>
+          <input type="text" id="tag" name="tag" />
+
+          <button type="submit" id="submit" name="submit" value="Submit">
+            Submit
+          </button>
+        </form>
       </section>
     </main>
     <!-- footer links -->
@@ -45,12 +61,12 @@
         <a class="footer-nav__link" href="./index.html"
           ><span class="visually-hidden">Home</span><span>&#127968;</span></a
         >
-        <a class="footer-nav__link active" href="./bookmarks.html"
+        <a class="footer-nav__link" href="./bookmarks.html"
           ><span class="visually-hidden">Bookmark</span
           ><span>&#128278;</span></a
         >
 
-        <a class="footer-nav__link" href="./form.html"
+        <a class="footer-nav__link active" href="./form.html"
           ><span class="visually-hidden">Form</span><span>✏️</span></a
         >
 
@@ -60,7 +76,6 @@
       </nav>
     </footer>
 
-    <script src="button.js"></script>
-    <script src="showanswer.js"></script>
+    <script src="form.js"></script>
   </body>
 </html>
