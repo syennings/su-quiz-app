@@ -55,7 +55,7 @@
 }
 
 .form__container {
-  background-color: green;
+  /* background-color: orange; */
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -73,7 +73,7 @@
 }
 
 .card {
-  background-color: lightseagreen;
+  background-color: orange;
   margin: 20px;
   padding: 15px;
 }

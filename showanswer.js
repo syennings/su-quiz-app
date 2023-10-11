@@ -4,21 +4,6 @@ const answerButtons = document.querySelectorAll(
 );
 const answers = document.querySelectorAll(".question-card__answer");
 
-// // Add a click event listener to each answer button
-// answerButtons.forEach((button, index) => {
-//   button.addEventListener("click", () => {
-//     // Toggle the 'hidden' class on the corresponding answer element
-//     answers[index].classList.toggle("hidden");
-
-//     // Change the button text based on the answer's visibility
-//     if (answers[index].classList.contains("hidden")) {
-//       button.textContent = "Show Answer";
-//     } else {
-//       button.textContent = "Hide Answer";
-//     }
-//   });
-// });
-
 for (let index = 0; index < answerButtons.length; index++) {
   // Add a click event listener to each answer button
   answerButtons[index].addEventListener("click", function () {
@@ -37,3 +22,18 @@ for (let index = 0; index < answerButtons.length; index++) {
     }
   });
 }
+
+// // Add a click event listener to each answer button
+// answerButtons.forEach((button, index) => {
+//   button.addEventListener("click", () => {
+//     // Toggle the 'hidden' class on the corresponding answer element
+//     answers[index].classList.toggle("hidden");
+
+//     // Change the button text based on the answer's visibility
+//     if (answers[index].classList.contains("hidden")) {
+//       button.textContent = "Show Answer";
+//     } else {
+//       button.textContent = "Hide Answer";
+//     }
+//   });
+// });
