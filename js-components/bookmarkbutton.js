@@ -12,9 +12,9 @@ bookmarkIcons.forEach((bookmarkIcon, index) => {
 
     // Change the emoji based on the state
     if (isBookmarked[index]) {
-      bookmarkIcon.innerHTML = "📖"; // Change to a different emoji when bookmarked
+      bookmarkIcon.innerHTML = "🔖"; // Change to a different emoji when bookmarked
     } else {
-      bookmarkIcon.innerHTML = "&#128278;"; // Change to the original emoji when not bookmarked
+      bookmarkIcon.innerHTML = "📖"; // Change to the original emoji when not bookmarked
     }
   });
 });
